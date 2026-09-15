@@ -1,0 +1,93 @@
+{
+ "charts": [],
+ "content": "[{\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Club Sportif</b></span>\",\"col\":12}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Membres\",\"col\":3}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Cotisations\",\"col\":3}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Evenements\",\"col\":3}},{\"type\":\"spacer\",\"data\":{\"col\":12}},{\"type\":\"card\",\"data\":{\"card_name\":\"Club Sportif\",\"col\":4}}]",
+ "creation": "2026-09-15 00:00:00.000000",
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "users",
+ "idx": 0,
+ "label": "Club Sportif",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Club Sportif",
+   "link_count": 0,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "dependencies": "",
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Membres (Customer)",
+   "link_count": 0,
+   "link_to": "Customer",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "dependencies": "",
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Cotisations (Subscription)",
+   "link_count": 0,
+   "link_to": "Subscription",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "dependencies": "",
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Plans de cotisation",
+   "link_count": 0,
+   "link_to": "Subscription Plan",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "dependencies": "",
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Evenements (Event)",
+   "link_count": 0,
+   "link_to": "Event",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2026-09-15 00:00:00.000000",
+ "modified_by": "Administrator",
+ "module": "Club Sportif",
+ "name": "Club Sportif",
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "roles": [],
+ "sequence_id": 1.0,
+ "shortcuts": [
+  {
+   "label": "Membres",
+   "link_to": "Customer",
+   "type": "DocType"
+  },
+  {
+   "label": "Cotisations",
+   "link_to": "Subscription",
+   "type": "DocType"
+  },
+  {
+   "label": "Evenements",
+   "link_to": "Event",
+   "type": "DocType"
+  }
+ ],
+ "title": "Club Sportif"
+}
