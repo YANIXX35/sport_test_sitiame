@@ -6,3 +6,5 @@ app_email = "contact@sitiame-capital.com"
 app_license = "MIT"
 
 required_apps = ["erpnext"]
+
+app_include_js = "/assets/sitiame_sport/js/brand_override.js"
